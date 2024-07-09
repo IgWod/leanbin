@@ -1,0 +1,103 @@
+{
+  "programs": [
+    {
+      "binary" : "cpu2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_native.0000/bzip2_base.native",
+      "args": [
+        [
+          "text.html", "280"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/403.gcc/run/run_base_ref_native.0000/gcc_base.native",
+      "args": [
+        [
+          "g23.in", "-o", "g23.s"
+        ]
+      ],
+      "extra-args" : ["--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/429.mcf/run/run_base_ref_native.0000/mcf_base.native",
+      "args": [
+        [
+          "inp.in"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "/home/igor/cpu2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_native.0000/gobmk_base.native",
+      "args": [
+        [
+          "--quiet", "--mode", "gtp", "--gtp-input", "nngs.tst"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/456.hmmer/run/run_base_ref_native.0000/hmmer_base.native",
+      "args": [
+        [
+          "--fixed", "0", "--mean", "500", "--num", "500000", "--sd", "350", "--seed", "0", "retro.hmm"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_native.0000/sjeng_base.native",
+      "args": [
+        [
+          "ref.txt"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_native.0000/libquantum_base.native",
+      "args": [
+        [
+          "1397", "8"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_native.0000/h264ref_base.native",
+      "args": [
+        [
+          "-d", "sss_encoder_main.cfg"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/471.omnetpp/run/run_base_ref_native.0000/omnetpp_base.native",
+      "args": [
+        [
+          "omnetpp.ini"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/473.astar/run/run_base_ref_native.0000/astar_base.native",
+      "args": [
+        [
+          "rivers.cfg"
+        ]
+      ],
+      "extra-args" : ["--cmp-opt"]
+    },
+    {
+      "binary": "cpu2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_native.0000/Xalan_base.native",
+      "args": [
+        [
+          "-v", "t5.xml", "xalanc.xsl"
+        ]
+      ],
+      "extra-args" : ["--reset-trampolines", "0x2c0a58,0x2c0a60", "--vfp-opt"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[submodule "mambo-trace"]
+	path = mambo-trace
+	url = https://github.com/IgWod/mambo-trace.git
+[submodule "unicorn"]
+	path = unicorn
+	url = https://github.com/IgWod/unicorn.git
+[submodule "mambo"]
+	path = mambo
+	url = https://github.com/beehive-lab/mambo.git
+[submodule "mambo-lift"]
+	path = mambo-lift
+	url = https://github.com/IgWod/mambo-lift.git

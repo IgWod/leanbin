@@ -1,0 +1,12 @@
+{
+  "programs": [
+    {
+      "binary" : "benchmarks/hello",
+      "args": [
+        ["First", "case"],
+        ["Second", "case"]
+      ],
+      "extra-args" : ["--cmp-opt", "--vfp-opt"]
+    }
+  ]
+}
