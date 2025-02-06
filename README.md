@@ -143,13 +143,20 @@ export CPU2006_ROOT=/home/mambo/cpu2006/
 If you use Leanbin in your research please cite:
 
 ```
-@misc{leanbin,
-      title={LeanBin: Harnessing Lifting and Recompilation to Debloat Binaries}, 
-      author={Igor Wodiany and Antoniu Pop and Mikel Luján},
-      year={2024},
-      eprint={2406.16162},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2406.16162}, 
+@inproceedings{10.1145/3691620.3695515,
+	title        = {LeanBin: Harnessing Lifting and Recompilation to Debloat Binaries},
+	author       = {Wodiany, Igor and Pop, Antoniu and Luj\'{a}n, Mikel},
+	year         = 2024,
+	booktitle    = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+	location     = {Sacramento, CA, USA},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {ASE '24},
+	pages        = {1434–1446},
+	doi          = {10.1145/3691620.3695515},
+	isbn         = 9798400712487,
+	url          = {https://doi.org/10.1145/3691620.3695515},
+	numpages     = 13,
+	keywords     = {binary debloating, binary specialization, binary lifting, control-flow recovery, recompilation, heuristc-free static analysis}
 }
 ```
